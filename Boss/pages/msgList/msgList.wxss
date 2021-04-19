@@ -1,0 +1,160 @@
+/* pages/msgList/msgList.wxss */
+page{
+  background: #fff;
+}
+/* 顶部开关  */
+.top_tab{
+  position: fixed;
+  top:0;
+  width: 100%;
+  background: #53cac4;
+  color: #efefef;
+  padding-bottom: 25rpx;
+  display: flex;
+  justify-content: center;
+  font-size: 30rpx;
+  letter-spacing: 2rpx;
+  z-index: 2;
+}
+.top_switch{
+  display: flex;
+  border:2rpx #fff solid;
+  border-radius:8rpx;
+  width: 40%;  
+}
+.top_switch_item{
+  width: 50%;
+  text-align: center;
+  padding: 5rpx 25rpx;
+}
+.top_switch_act{
+  color: #53cac4;
+  background: #fff;
+}
+.red_point{
+  position: absolute;
+  top:-5rpx;
+  color: #f44336;
+}
+/* 搜索 */
+.search_btn{
+  display: flex;
+  align-items: center;
+  margin-top: 120rpx;
+  font-size:25rpx; 
+  color: #999;
+  width: 78%;
+  margin-left: 5%;
+  padding: 10rpx 50rpx;
+  background: #f2f2f2;
+  border-radius:30rpx; 
+}
+.search_btn text{
+  margin-left: 10rpx;
+}
+.search_btn image{
+  width: 40rpx;
+  height: 40rpx;
+}
+/* 固定功能列表 */
+.fixed_list{
+  color: #333;
+  padding:0 35rpx;
+}
+.user_head{
+  width: 90rpx;
+  height: 90rpx;
+  border-radius:50%; 
+}
+.fixed_item{
+  display: flex;
+  justify-content: space-between;
+  padding: 30rpx 0;
+  background: #fff;
+  border-bottom:1rpx #eee solid; 
+}
+.fixed_item_left{
+  display: flex;
+  align-items: center;
+  font-size: 30rpx;
+  width: 82%;
+}
+.fixed_item_right{
+  color: #999;
+  font-size: 25rpx;
+}
+.notice_info{
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.user_info{
+  margin-left: 15rpx;
+  width: 82%;
+}
+.tips_info{
+  color: #999;
+  font-size: 25rpx;
+  margin-top: 8rpx;
+}
+
+/* 聊天列表 */
+.msg_list{
+  color: #333;
+  padding:0 35rpx;
+}
+.msg_item{
+  display: flex;
+  justify-content: space-between;
+  padding: 30rpx 0;
+  background: #fff;
+  border-bottom:1rpx #eee solid;
+}
+.msg_item_left{
+  display: flex;
+  align-items: center;
+  font-size: 30rpx;
+  width: 82%;
+}
+.msg_user_info{
+  display: flex;
+  align-items: center;
+  margin-left: 15rpx;
+}
+.msg_job_info{
+   font-size:20rpx;
+   color:#999;
+   margin-left: 10rpx;
+}
+.msg_line{
+  color: #999;
+  font-size: 25rpx;
+  margin-top: 8rpx;
+}
+.msg_item_right{
+  color: #999;
+  font-size: 25rpx;
+}
+.tag_read{
+  font-size: 18rpx;
+  border:1rpx #53cac4 solid;
+  border-radius:4rpx;
+  padding:3rpx 5rpx;
+  color: #53cac4; 
+}
+.tips_num{
+  position: absolute;
+  right: 5%;
+  background: #f44336;
+  color: #fff;
+  font-size: 20rpx;
+  border-radius:50%;
+  width: 32rpx;
+  height: 32rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5rpx; 
+  margin-top: 25rpx;
+}

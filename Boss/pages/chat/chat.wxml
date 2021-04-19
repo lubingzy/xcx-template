@@ -1,0 +1,65 @@
+<!--pages/chat/chat.wxml-->
+<view class='jobshow'>{{jobShow}}</view>
+<!-- 顶部栏 -->
+<view class='topBar'>
+  <block wx:for="{{topBar}}" wx:key>
+    <view class='topBar_item'>
+      <image class='topBar_icon' src='{{item.icon}}'></image>
+      <view>{{item.name}}</view>
+    </view>
+  </block>  
+</view>
+<!-- 职位信息 -->
+
+ <view class='job_item'>
+    <view class='job_item_up'>
+     <view class='job_info'>
+       <view class='job_name'>技术总监</view>
+       <view class='job_company'>
+        <text>亚睿科技</text>
+        <text>未融资</text>
+       </view>
+       <view class='tag_list'>
+        <text>长沙 岳麓区 麓谷</text>
+        <text>3-5年</text>
+        <text>本科</text>
+       </view>
+       <view class='company_recruit'>
+         <image class='recruit_head' src='../../images/test/head.png'></image>
+         <text>李女士 </text>
+         <text style='font-size:15rpx;'>•</text>
+         <text> 招聘者</text>
+       </view>
+     </view>
+     <view class='wages'>
+       10k-20k
+     </view>
+     </view>
+     <view class='job_item_down'>
+       9月27日 17:08 向您发起的沟通
+     </view>
+   </view>
+<!-- 聊天列表 -->
+<view class='chat_list'>
+   <view class='chat_item'>
+      <view class='now_time'>9月27日 17:28</view>
+      <view class='chat_item_left'>
+        <image class='chat_head' src='../../images/test/head.png'></image>
+        <view class='chat_item_left_info'>张三，你好，有意向换份工作吗？有意向换份工作吗？有意向换份工作吗？有意向换份工作吗？</view>
+      </view>
+      <view class='now_time'>9月27日 17:28</view>
+      <view class='chat_item_right'>
+        <view class='chat_item_right_info'>目前没有</view>
+        <image class='chat_head' src='../../images/test/head.png'></image>
+        <view class='send_status'>送达</view>
+      </view>
+   </view>
+</view>
+
+<!-- 底部输入栏 -->
+<view class='chat_input_body'>
+  <view class='phrase' hover-class='phrase_hover'>常用语</view>
+  <input class='input_body' type='text' confirm-type='send' placeholder='新信息' placeholder-class='chat_input'></input>
+  <image class='chat_icon' src='../../images/chat/laugh.png'></image>
+  <image class='chat_icon' src='../../images/chat/add.png'></image>
+</view>

@@ -1,0 +1,65 @@
+<!--pages/job/job.wxml-->
+<!-- 顶部选项栏 -->
+<view class='top_tab'>
+  <view class='job_title_list'>
+  <block wx:for="{{job_title_list}}" wx:key="9383">
+     <view class='job_title_item {{job_title_show==index?"job_title_act":""}}' catchtap='job_title_select' data-key='{{index}}' data-id='{{item.id}}'>{{item.job_title}}</view>
+  </block>  
+  </view>
+  <view class='opt_tab'>
+    <image class='tab_icon' src='../../images/index/add.png'></image>
+    <image class='tab_icon opt_tab_right' catchtap="toSearch" src='../../images/index/search.png'></image>
+  </view>
+</view>
+<!-- 筛选栏 -->
+<view class='filter_tab'>
+   <view class='filter_item'>
+      <view class='filter_title'>推荐</view>
+      <image class='down_arrow' src='../../images/public/down_arrow.png'></image>
+   </view>
+   <view class='filter_item border_left'>
+      <view class='filter_title'>长沙</view>
+      <image class='down_arrow' src='../../images/public/down_arrow.png'></image>
+   </view>
+   <view class='filter_item border_left'>
+      <view class='filter_title'>公司</view>
+      <image class='down_arrow' src='../../images/public/down_arrow.png'></image>
+   </view>
+   <view class='filter_item border_left'>
+      <view class='filter_title'>要求</view>
+      <image class='down_arrow' src='../../images/public/down_arrow.png'></image>
+   </view>
+</view>
+
+<view class='filter_tui'>
+
+</view>
+
+<!-- 职位列表 -->
+<view class='job_list'>
+<block wx:for="{{[1,2,3,4,5]}}" wx:key="4647">
+   <view class='job_item'>
+     <view class='job_info'>
+       <view class='job_name'>技术开发</view>
+       <view class='job_company'>
+        <text>亚睿技术</text>
+        <text>未融资</text>
+       </view>
+       <view class='tag_list'>
+        <text>长沙 芙蓉区 五一大道</text>
+        <text>3-5年</text>
+        <text>本科</text>
+       </view>
+       <view class='company_recruit'>
+         <image class='recruit_head' src='../../images/test/head.png'></image>
+         <text>张先生 </text>
+         <text style='font-size:15rpx;'>•</text>
+         <text> 招聘者</text>
+       </view>
+     </view>
+     <view class='wages'>
+       10k-20k
+     </view>
+   </view>
+</block>
+</view>

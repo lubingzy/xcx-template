@@ -1,0 +1,99 @@
+<!--pages/msgList/msgList.wxml-->
+<!-- 顶部开关 -->
+<view class='top_tab'>
+  <view class='top_switch'>
+    <view class='top_switch_item {{swith_show==0?"top_switch_act":""}}' catchtap='top_switch' id='0'>聊天
+    <text class='red_point'>•</text>
+    </view>
+    <view class='top_switch_item {{swith_show==1?"top_switch_act":""}}' catchtap='top_switch' id='1'>互动
+    <text class='red_point'>•</text>
+    </view>
+  </view>
+</view>
+<!-- 搜索 -->
+<view class='search_btn' catchtap='toSearch'>
+  <image src='../../images/public/search.png'></image>
+  <text>通过姓名或公司搜索联系人</text>
+</view>
+<!--  固定功能列表 -->
+<view class='fixed_list'>
+
+  <view class='fixed_item'>
+    <view class='fixed_item_left'>
+      <image class='user_head' src='../../images/msgList/notice.png'></image>
+      <view class='user_info'>
+        <view>通知
+          <text style='font-size:20rpx;color:#999;'>系统通知</text>
+        </view>
+        <view class='tips_info notice_info'>
+          尊敬的用户，如您在求职过程中或面试途中，遇到任何要求缴纳费用
+        </view>
+      </view>
+    </view>
+    <view class='fixed_item_right'>
+      昨天
+      <view class='tips_num'>2</view>
+    </view>
+  </view>
+
+  <view class='fixed_item'>
+    <view class='fixed_item_left'>
+      <image class='user_head' src='../../images/msgList/see.png'></image>
+      <view class='user_info'>
+        <view>刘文丽 查看了您</view>
+        <view class='tips_info'>
+          1位BOSS查看
+        </view>
+      </view>
+    </view>
+    <view class='fixed_item_right'>
+     昨天
+     <view class='tips_num'>1</view> 
+    </view>
+  </view>
+
+  <view class='fixed_item'>
+    <view class='fixed_item_left'>
+      <image class='user_head' src='../../images/msgList/like.png'></image>
+      <view class='user_info'>
+        <view>张俊峰 对您感兴趣</view>
+        <view class='tips_info'>
+          1位BOSS感兴趣
+        </view>
+      </view>
+    </view>
+    <view class='fixed_item_right'>
+      12月16日
+      <view class='tips_num'>5</view>
+    </view>
+  </view>
+
+</view>
+
+<!-- 聊天列表 -->
+<view class='msg_list'>
+<block wx:for="{{[1,2,3,4,5,6,7,8,9,10]}}" wx:key="4564">
+  <view class='msg_item' catchtap="toChat">
+    <view class='msg_item_left'>
+      <image class='user_head' src='../../images/test/head.png'></image>
+      <view style="margin-left:15rpx;">
+        <view class='msg_user_info'>
+          张三
+          <view class='msg_job_info'>
+            <text>亚睿技术 </text>
+            <text style='font-size:15rpx;'>•</text>
+            <text> 招聘专员</text>
+          </view>
+        </view>
+        <view class='msg_line'>
+         <text class='tag_read'>已读</text>  您好！有兴趣聊聊吗？
+        </view>
+      </view>
+    </view>
+    <view class='msg_item_right'>
+      12月16日
+      <view class='tips_num'>10</view>
+    </view>
+  </view>
+</block>
+</view>

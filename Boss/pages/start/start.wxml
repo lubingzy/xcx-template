@@ -1,0 +1,9 @@
+<!--pages/start/start.wxml-->
+<image class='start_img' src='../../images/public/start.jpeg'></image>
+<view class='count_down'>
+     <view class='countDown_bj'>
+     <view class='countDown_text'>
+     {{second}}
+     </view>
+     </view>
+</view>

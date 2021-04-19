@@ -1,0 +1,130 @@
+/* pages/mine/mine.wxss */
+.user_info{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #53cac4;
+  height: 200rpx;
+}
+.set_btn{
+  position: absolute;
+  left: 33%;
+  top: 50rpx;
+  color: #fff;
+  font-size: 25rpx;
+  border: 1rpx #fff solid;
+  border-radius:8rpx;
+  padding: 3rpx 8rpx; 
+  letter-spacing: 2rpx;
+}
+.set_img{
+  position: absolute;
+  left: 30%;
+  top: 45rpx;
+  width: 40rpx;
+  height:40rpx;
+}
+.head_img{
+  width: 135rpx;
+  height: 135rpx;
+  border-radius:50%;
+  margin-left: 15rpx; 
+} 
+.user_info_body{
+  width: 40%;
+  color: #fff;
+  font-size: 50rpx;
+}
+.user_info_body_up{
+  letter-spacing: 2px;
+}
+.user_info_body_down{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20rpx 0;
+  font-size: 25rpx;
+  letter-spacing: 2rpx;
+}
+.right_arrow{
+  width: 25rpx;
+  height: 25rpx;
+}
+/* 功能块 */
+.user_func{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #fff;
+  border-bottom: 1rpx #eee solid;
+  height: 150rpx;
+}
+.func_item{
+  text-align: center;
+}
+.func_item_img{
+  width: 45rpx;
+  height: 45rpx;
+}
+
+.func_item_up{
+   font-size: 28rpx;
+   text-align: center;
+}
+
+
+.func_item_down{
+  text-align: center;
+  font-size: 25rpx;
+  color: #888;
+  letter-spacing: 1rpx;
+}
+
+.line_list{
+  margin-top: 30rpx;
+  border-bottom:1rpx #eee solid;
+}
+.line_item{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  padding:45rpx 50rpx;
+  border-top:1rpx #ddd solid;
+  color: #888;
+  font-size: 30rpx;
+}
+.line_item_left{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 40%;
+}
+.line_item_right{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 20rpx;
+  letter-spacing: 2rpx;
+}
+.line_item_status{
+  margin-right: 15rpx;
+}
+.line_item_img{
+  width: 45rpx;
+  height: 45rpx;
+}
+
+.line_item_title{
+  color: #888;
+  font-size: 28rpx;
+  width: 70%;
+}
+
+.logout{
+  text-align: center;
+  background: #fff;
+  padding: 25rpx 0;
+  color:#f95e3f;
+  margin-top: 35rpx;
+}

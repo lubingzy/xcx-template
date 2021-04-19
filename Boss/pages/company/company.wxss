@@ -1,0 +1,87 @@
+/* pages/company/company.wxss */
+/* 筛选栏 */
+.filter_tab{
+   position: fixed;
+   top:0;
+   width: 100%;
+   display: flex;
+   justify-content: space-around;
+   border-bottom:1rpx #eee solid; 
+   letter-spacing: 2rpx;
+   background: #fff;
+}
+.filter_item{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #999;
+  font-size: 30rpx;
+  margin: 20rpx 0;
+  width: 25%;
+}
+.filter_title{
+  margin: 0 15rpx;
+}
+.border_left{
+  border-left:1rpx #eee solid; 
+}
+.down_arrow{
+  width: 25rpx;
+  height: 25rpx;
+}
+/* 公司列表 */
+.company_list{
+  margin-top: 75rpx;
+}
+.company_item{
+  padding: 35rpx 50rpx;
+  letter-spacing: 1rpx;
+  background: #fff;
+  margin-bottom: 15rpx;
+}
+.company_logo{
+   width: 120rpx;
+   height: 120rpx;
+   border-radius:8rpx; 
+}
+.company_item_up{
+  display: flex;
+  align-items: center;
+}
+.company_info{
+  margin-left: 30rpx;
+}
+.company_addr{
+  color: #999;
+  font-size: 30rpx;
+  margin-top: 15rpx;
+}
+
+.tag_list{
+  margin: 10rpx 0;
+  padding-bottom: 25rpx;
+}
+.tag_list text{
+  font-size:25rpx;
+  color: #aaa;
+  background: #eee;
+  padding:5rpx 10rpx;
+  margin-right: 15rpx;
+  border-radius:8rpx; 
+}
+.company_job{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 30rpx;
+  color: #999;
+  padding-top: 25rpx;
+  border-top:1rpx #eee solid; 
+}
+.hot_job text{
+  color: #53cac4;
+}
+.right_arrow{
+  width: 28rpx;
+  height: 28rpx;
+}

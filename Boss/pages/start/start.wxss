@@ -1,0 +1,31 @@
+/* pages/start/start.wxss */
+.start_img{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+}
+.count_down{
+  position: fixed;
+  top: 40rpx;
+  right: 50rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-right: 10rpx; 
+  width: 100rpx;
+  height: 100rpx;
+}
+.countDown_bj{
+  background: #fff;
+  border-radius:50%;
+  width: 60rpx;
+  height: 60rpx;
+  position: relative;
+}
+.countDown_text{
+  position: absolute;
+  right: 20rpx;
+  top:8rpx;
+  color: #888;
+}
+

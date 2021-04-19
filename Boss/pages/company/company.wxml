@@ -1,0 +1,43 @@
+<!--pages/company/company.wxml-->
+<!-- 筛选栏 -->
+<view class='filter_tab'>
+   <view class='filter_item'>
+      <view class='filter_title'>融资</view>
+      <image class='down_arrow' src='../../images/public/down_arrow.png'></image>
+   </view>
+   <view class='filter_item border_left'>
+      <view class='filter_title'>规模</view>
+      <image class='down_arrow' src='../../images/public/down_arrow.png'></image>
+   </view>
+   <view class='filter_item border_left'>
+      <view class='filter_title'>行业</view>
+      <image class='down_arrow' src='../../images/public/down_arrow.png'></image>
+   </view>
+</view>
+<!-- 公司列表 -->
+<view class='company_list'>
+<block wx:for="{{[1,2,3,4,5]}}" wx:key="4647">
+   <view class='company_item'>
+    <view class='company_item_up'>
+       <image class='company_logo' src='../../images/test/head.png'></image>
+       <view class='company_info'>
+        <view class='company_name'>长沙亚睿技术</view>
+        <view class='company_addr'>长沙</view>
+       </view>
+       </view>
+       <view class='tag_list'>
+        <text>未融资</text>
+        <text>100-999人</text>
+        <text>媒体</text>
+       </view>
+       <view class='company_job'>
+         <view class='hot_job'>
+           热招：<text>PHP开发工程师</text>
+           等120个职位
+         </view>
+         <image class='right_arrow' src='../../images/public/black_arrow.png'></image>
+       </view>
+     
+   </view>
+</block>
+</view>

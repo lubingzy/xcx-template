@@ -1,0 +1,60 @@
+/* pages/see/see.wxss */
+/* 职位列表 */
+
+.job_item{
+  display: flex;
+  justify-content: space-around;
+  padding: 25rpx 0;
+  letter-spacing: 1rpx;
+  background: #fff;
+}
+.job_name{
+  font-size: 35rpx;
+}
+.job_company{
+  color: #888;
+  font-size: 28rpx;
+  margin: 10rpx 0;
+}
+.job_company text{
+  margin-right: 10rpx;
+}
+.tag_list{
+  margin: 10rpx 0;
+}
+.tag_list text{
+  font-size:23rpx;
+  color: #aaa;
+  background: #eee;
+  padding:5rpx 10rpx;
+  margin-right: 15rpx;
+  border-radius:8rpx; 
+}
+.recruit_head{
+   width: 65rpx;
+   height: 65rpx;
+   border-radius:50%; 
+}
+.company_recruit{
+  display: flex;
+  align-items: center;
+  font-size: 28rpx;
+  color: #666;
+  margin: 20rpx 0;
+}
+.company_recruit text{
+  margin-left: 10rpx;
+}
+.wages{
+  font-size: 30rpx;
+  color: #53cac4;
+}
+.job_down{
+  font-size: 25rpx;
+  color: #999;
+  background: #fff; 
+  padding: 30rpx 55rpx;
+  margin-bottom: 15rpx;
+  border-top:1rpx #eee solid;
+  border-bottom:1rpx #eee solid;
+}

@@ -1,0 +1,106 @@
+{
+  "description": "项目配置文件",
+  "packOptions": {
+    "ignore": []
+  },
+  "setting": {
+    "urlCheck": false,
+    "es6": true,
+    "enhance": false,
+    "postcss": true,
+    "preloadBackgroundData": false,
+    "minified": true,
+    "newFeature": true,
+    "coverView": true,
+    "nodeModules": false,
+    "autoAudits": false,
+    "showShadowRootInWxmlPanel": true,
+    "scopeDataCheck": false,
+    "uglifyFileName": false,
+    "checkInvalidKey": true,
+    "checkSiteMap": true,
+    "uploadWithSourceMap": true,
+    "compileHotReLoad": false,
+    "useMultiFrameRuntime": true,
+    "useApiHook": true,
+    "useApiHostProcess": false,
+    "babelSetting": {
+      "ignore": [],
+      "disablePlugins": [],
+      "outputPath": ""
+    },
+    "enableEngineNative": false,
+    "bundle": false,
+    "useIsolateContext": true,
+    "useCompilerModule": true,
+    "userConfirmedUseCompilerModuleSwitch": false,
+    "userConfirmedBundleSwitch": false,
+    "packNpmManually": false,
+    "packNpmRelationList": [],
+    "minifyWXSS": true
+  },
+  "compileType": "miniprogram",
+  "libVersion": "2.3.0",
+  "appid": "wx64cf0f0153ce4aed",
+  "projectname": "Boss",
+  "debugOptions": {
+    "hidedInDevtools": []
+  },
+  "isGameTourist": false,
+  "simulatorType": "wechat",
+  "simulatorPluginLibVersion": {},
+  "condition": {
+    "search": {
+      "list": []
+    },
+    "conversation": {
+      "list": []
+    },
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "currentL": -1,
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "id": -1,
+          "name": "company",
+          "pathName": "pages/company/company",
+          "query": ""
+        },
+        {
+          "id": -1,
+          "name": "msg",
+          "pathName": "pages/msg/msg",
+          "query": ""
+        },
+        {
+          "id": -1,
+          "name": "see",
+          "pathName": "pages/see/see",
+          "query": ""
+        },
+        {
+          "id": -1,
+          "name": "chat",
+          "pathName": "pages/chat/chat",
+          "query": ""
+        },
+        {
+          "id": -1,
+          "name": "msgList",
+          "pathName": "pages/msgList/msgList",
+          "query": ""
+        },
+        {
+          "id": -1,
+          "name": "search",
+          "pathName": "pages/search/search"
+        }
+      ]
+    }
+  }
+}

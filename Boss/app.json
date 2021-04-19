@@ -1,0 +1,50 @@
+{
+  "pages": [
+    "pages/start/start",
+    "pages/job/job",
+    "pages/company/company",
+    "pages/msgList/msgList",
+    "pages/search/search",
+    "pages/chat/chat",
+    "pages/see/see",
+    "pages/mine/mine"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#53cac4",
+    "navigationBarTitleText": "Boss直聘",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "selectedColor": "#53cac4",
+    "color": "#bfbfbf",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "pagePath": "pages/job/job",
+        "text": "职位",
+        "iconPath": "images/tabbar/job.png",
+        "selectedIconPath": "images/tabbar/job_act.png"
+      },
+      {
+        "pagePath": "pages/company/company",
+        "text": "公司",
+        "iconPath": "images/tabbar/company.png",
+        "selectedIconPath": "images/tabbar/company_act.png"
+      },
+      {
+        "pagePath": "pages/msgList/msgList",
+        "text": "消息",
+        "iconPath": "images/tabbar/msgList.png",
+        "selectedIconPath": "images/tabbar/msgList_act.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "images/tabbar/mine.png",
+        "selectedIconPath": "images/tabbar/mine_act.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

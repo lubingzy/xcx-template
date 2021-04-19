@@ -1,0 +1,110 @@
+<!--pages/mine/mine.wxml-->
+<!--用户信息  -->
+<view class='user_info'>
+  <!-- <image class='set_img' src='../../images/public/set.png'></image> -->
+  <view class='set_btn'>设置</view>
+  <view class='user_info_body'>
+    <view class='user_info_body_up'>
+      <!-- 登录/注册 -->
+      <view>张三</view>
+    </view>
+    <view class='user_info_body_down'>
+      <!-- 登录后享受更多特权  -->
+      <view>查看并修改个人微简历</view>
+      <image class='right_arrow' src='../../images/public/right_arrow.png'></image>
+    </view>
+  </view>
+  <image class='head_img' src='../../images/public/head.png'></image>
+</view>
+
+<!--用户卡包  -->
+<view class='user_func'>
+  <view class='func_item'>
+    <image class='func_item_img' src='../../images/mine/msg.png'></image>
+    <!-- <view class='func_item_up'>10</view> -->
+    <view class='func_item_down'>
+      <text>沟通过</text>
+    </view>
+  </view>
+  <view class='func_item'>
+    <image class='func_item_img' src='../../images/mine/interview.png'></image>
+    <!-- <view class='func_item_up'>60</view> -->
+    <view class='func_item_down'>面试</view>
+  </view>
+  <view class='func_item'>
+    <image class='func_item_img' src='../../images/mine/delivery.png'></image>
+    <!-- <view class='func_item_up'>66</view> -->
+    <view class='func_item_down'>已投递</view>
+  </view>
+  <view class='func_item'>
+    <image class='func_item_img' src='../../images/mine/interest.png'></image>
+    <!-- <view class='func_item_up'>6</view> -->
+    <view class='func_item_down'>感兴趣</view>
+  </view>
+</view>
+
+
+<!--功能区-->
+
+<view class='line_list'>
+
+  <view class='line_item'>
+    <view class='line_item_left'>
+      <image class='line_item_img' src='../../images/mine/upload.png'></image>
+      <view class='line_item_title'>附件简历</view>
+    </view>
+    <view class='line_item_right'>
+      <view class='line_item_status'>
+         <!-- 已上传1份 -->
+      </view>
+      <image class='right_arrow' src='../../images/public/black_arrow.png'></image>
+    </view>
+  </view>
+
+  <view class='line_item'>
+    <view class='line_item_left'>
+      <image class='line_item_img' src='../../images/mine/manager.png'></image>
+      <view class='line_item_title'>管理求职意向</view>
+    </view>
+    <view class='line_item_right'>
+      <view class='line_item_status'>
+         在职-考虑机会
+      </view>
+      <image class='right_arrow' src='../../images/public/black_arrow.png'></image>
+    </view>
+  </view>
+
+  <view class='line_item'>
+    <view class='line_item_left'>
+      <image class='line_item_img' src='../../images/mine/answer.png'></image>
+      <view class='line_item_title'>牛人问答</view>
+    </view>
+    <view class='line_item_right'>
+      <view class='line_item_status'></view>
+      <image class='right_arrow' src='../../images/public/black_arrow.png'></image>
+    </view>
+  </view>
+
+    <view class='line_item'>
+    <view class='line_item_left'>
+      <image class='line_item_img' src='../../images/mine/company.png'></image>
+      <view class='line_item_title'>关注公司</view>
+    </view>
+    <view class='line_item_right'>
+      <view class='line_item_status'></view>
+      <image class='right_arrow' src='../../images/public/black_arrow.png'></image>
+    </view>
+  </view>
+
+    <view class='line_item'>
+    <view class='line_item_left'>
+      <image class='line_item_img' src='../../images/mine/Privacy.png'></image>
+      <view class='line_item_title'>隐私设置</view>
+    </view>
+    <view class='line_item_right'>
+      <view class='line_item_status'></view>
+      <image class='right_arrow' src='../../images/public/black_arrow.png'></image>
+    </view>
+  </view>
+
+</view>

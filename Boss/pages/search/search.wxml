@@ -1,0 +1,9 @@
+<!--pages/search/search.wxml-->
+<!-- 搜索  -->
+<view class='top_tab'>
+<view class='search_body' catchtap='toSearch'>
+  <image src='../../images/public/search.png'></image>
+  <input class='search_input' type='text' focus='true' confirm-type='search' placeholder='通过姓名或公司搜索联系人' placeholder-class='input_placeholder'></input>
+</view>
+<view class='reset_btn' catchtap='toMsgList'>取消</view>
+</view>

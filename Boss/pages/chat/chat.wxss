@@ -1,0 +1,185 @@
+/* pages/chat/chat.wxss */
+page{
+  background: #fefefe;
+}
+.jobshow{
+  position: fixed;
+  top:0;
+  text-align: center;
+  font-size: 25rpx;
+  background: #fff;
+  color: #555;
+  padding-bottom: 10rpx;
+  letter-spacing: 1rpx;
+  width: 100%;
+}
+/* 顶部栏 */
+.topBar{
+  position: fixed;
+  top:38rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  background: #fff;
+  padding: 20rpx 0;
+  width: 100%;
+  border-top:1rpx #ededed solid;
+  border-bottom:1rpx #ededed solid;  
+}
+.topBar_item{
+  font-size: 25rpx;
+  color: #888;
+}
+.topBar_icon{
+   width: 45rpx;
+   height: 45rpx;
+}
+/* 职位信息 */
+.job_item{
+  padding: 30rpx;
+  letter-spacing: 1rpx;
+  background: #fff;
+  margin:190rpx 0  15rpx 0;
+  width: 86%;
+  margin-left: 3%;
+  border-radius:15rpx; 
+  box-shadow: #ddd 0 0 35rpx;
+}
+.job_item_up{
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1rpx #eee solid;
+}
+.job_name{
+  font-size: 35rpx;
+}
+.job_company{
+  color: #888;
+  font-size: 28rpx;
+  margin: 10rpx 0;
+}
+.job_company text{
+  margin-right: 10rpx;
+}
+.tag_list{
+  margin: 10rpx 0;
+}
+.tag_list text{
+  font-size:23rpx;
+  color: #aaa;
+  background: #eee;
+  margin-right: 15rpx;
+  border-radius:8rpx; 
+  padding: 0 10rpx;
+}
+.recruit_head{
+   width: 65rpx;
+   height: 65rpx;
+   border-radius:50%; 
+}
+.company_recruit{
+  display: flex;
+  align-items: center;
+  font-size: 28rpx;
+  color: #666;
+  margin: 20rpx 0;
+}
+.company_recruit text{
+  margin-left: 10rpx;
+}
+.wages{
+  font-size: 30rpx;
+  color: #53cac4;
+}
+.job_item_down{
+  font-size: 25rpx;
+  color: #999;
+  margin-top: 25rpx;
+}
+/* 聊天列表 */
+.chat_list{
+  padding: 3%;
+}
+.chat_item{
+  font-size: 28rpx;
+  letter-spacing: 1rpx;
+}
+.now_time{
+  font-size: 20rpx;
+  color: #999;
+  text-align: center;
+  letter-spacing: 1rpx;
+  margin: 20rpx 0;
+}
+.chat_head{
+  width: 80rpx;
+  height: 80rpx;
+}
+.chat_item_left{
+  display: flex;
+  align-items: center;
+  color: #555;
+}
+.chat_item_left_info{
+  background: #f5f5f5;
+  margin-left:15rpx;
+  padding: 20rpx;
+  border-radius:10rpx; 
+  max-width: 65%;
+}
+.chat_item_right{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  color: #555;
+  position: relative;
+}
+.chat_item_right_info{
+  background: #53cac4;
+  color: #fff;
+  margin-right:15rpx;
+  padding: 20rpx;
+  border-radius:10rpx; 
+  max-width: 65%;
+}
+.send_status{
+  color: #aaa;
+  font-size: 20rpx;
+  position: absolute;
+  right: 100rpx;
+  bottom: -35rpx;
+}
+/* 信息输入 */
+.chat_icon{
+  width: 40rpx;
+  height: 40rpx;
+  padding: 15rpx;
+}
+.chat_input_body{
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  height: 100rpx;
+  border-top:1rpx #eee solid; 
+}
+.phrase{
+  font-size: 25rpx;
+  background: #53cac4;
+  color: #fff;
+  border-radius:8rpx;
+  padding: 10rpx 25rpx; 
+}
+.phrase_hover{
+  opacity: 0.8;
+}
+.chat_input{
+  font-size: 25rpx;
+  color: #bbb;
+}
+.input_body{
+  color: #666;
+}

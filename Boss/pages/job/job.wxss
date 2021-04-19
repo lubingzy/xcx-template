@@ -1,0 +1,121 @@
+/* pages/job/job.wxss */
+/* 顶部选项栏 */
+.top_tab{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #53cac4;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #eee;
+  font-size: 30rpx;
+  letter-spacing: 2rpx;
+}
+.job_title_list{
+  display: flex;
+  justify-content: space-around;
+  width: 70%;
+}
+.job_title_item{
+   margin: 20rpx;
+}
+.opt_tab{
+  width: 25%;
+  display: flex;
+  justify-content: space-around;
+}
+.tab_icon{
+  width: 35rpx;
+  height: 35rpx;
+}
+.opt_tab_right{
+  border-left:1rpx #eee solid;
+  padding:0 25rpx;  
+}
+.job_title_act{
+  color: #fff;
+}
+/* 筛选栏 */
+.filter_tab{
+   position: fixed;
+   top:80rpx;
+   width: 100%;
+   display: flex;
+   justify-content: space-around;
+   border-bottom:1rpx #eee solid; 
+   letter-spacing: 2rpx;
+   background: #fff;
+}
+.filter_item{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #999;
+  font-size: 28rpx;
+  margin: 20rpx 0;
+  width: 25%;
+}
+.filter_title{
+  margin: 0 15rpx;
+}
+.border_left{
+  border-left:1rpx #eee solid; 
+}
+.down_arrow{
+  width: 25rpx;
+  height: 25rpx;
+}
+/* 职位列表 */
+.job_list{
+  margin-top: 155rpx;
+}
+.job_item{
+  display: flex;
+  justify-content: space-around;
+  padding: 25rpx 0;
+  letter-spacing: 1rpx;
+  background: #fff;
+  margin-bottom: 15rpx;
+}
+.job_name{
+  font-size: 35rpx;
+}
+.job_company{
+  color: #888;
+  font-size: 28rpx;
+  margin: 10rpx 0;
+}
+.job_company text{
+  margin-right: 10rpx;
+}
+.tag_list{
+  margin: 10rpx 0;
+}
+.tag_list text{
+  font-size:23rpx;
+  color: #aaa;
+  background: #eee;
+  padding:5rpx 10rpx;
+  margin-right: 15rpx;
+  border-radius:8rpx; 
+}
+.recruit_head{
+   width: 65rpx;
+   height: 65rpx;
+   border-radius:50%; 
+}
+.company_recruit{
+  display: flex;
+  align-items: center;
+  font-size: 28rpx;
+  color: #666;
+  margin: 20rpx 0;
+}
+.company_recruit text{
+  margin-left: 10rpx;
+}
+.wages{
+  font-size: 30rpx;
+  color: #53cac4;
+}
