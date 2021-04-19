@@ -23,6 +23,9 @@
 - [组件](#组件)
 - [Demo](#demo)
 
+## 仿各类应用
+- [仿Boss直聘](https://github.com/lubingzy/xcx-template/tree/main/Boss) - 仅供学习交流
+
 ## 官方文档
 
 - [小程序设计指南](https://developers.weixin.qq.com/miniprogram/design/index.html)
