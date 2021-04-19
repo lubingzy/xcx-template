@@ -1,0 +1,26 @@
+<!--pages/myOrder/myOrder.wxml-->
+<!-- 切换栏 -->
+<view class='lable'>
+  <view class='item {{item_num==0?"item_act":""}}' catchtap='select_item' id="0">有效订单</view>
+  <view class='item {{item_num==1?"item_act":""}}' catchtap='select_item' id="1">失效订单</view>
+</view>
+<!-- 订单列表 -->
+<view class='order_item' catchtap='toPage' data-page="orderInfo">
+  <view class='order_title'>
+    <view class='shop_name'>长沙贺龙店</view>
+    <view class='order_status'>已完成</view>
+  </view>
+  <view class='order_time'>2019-03-24 09:12:15</view>
+
+  <view class='good_item'>
+    <view class='good_name'>康师傅方便面(老坛酸菜)</view>
+    <view class='good_num'>x2</view>
+  </view>
+  <view class='sum_good'>
+    <view hidden=''>···</view>
+    <view class='sum_num'>共10件商品,合计：
+      <text>￥23.90</text>
+    </view>
+  </view>
+</view>
+<view class='footTips'>已经到底了</view>

@@ -1,0 +1,30 @@
+<!--pages/shop/shop.wxml-->
+<view class='upBody'>
+  <view class='userInfo'>
+    <image class="headImg" src='https://wx.qlogo.cn/mmopen/vi_32/DYAIOgq83ep3XqO6z7icxM6PQx46wFQcGnRwouS8OHWYFSjEW6p7fsMmWBe4VvLnIsibfhfm1jElsRHaMsGia4z6g/132'></image>
+    <view class='info'>
+      <view>互联未来</view>
+      <view class='vip'>会员号:78686787868678</view>
+      <view class='select_shop'>请选择门店
+        <image class="wihte_top_arrow" src='../../images/wihte_top_arrow.png'></image>
+      </view>
+    </view>
+  </view>
+  <view class='order' catchtap='toPage' data-page="myOrder">我的订单
+    <image class="wihte_right_arrow" src='../../images/wihte_right_arrow.png'></image>
+  </view>
+</view>
+
+<view class='icon_body'>
+<image class='logo' src='../../images/logo.png'></image>
+<image class="icon_img" src='../../images/icon.png'></image>
+</view>
+
+<view class='sao_btn' catchtap='sao_sn' hover-class='sao_btn_hover'>
+ <image class='sm_img' src='../../images/sm.png'></image>
+ <view class='sm_text'>扫一扫条形码</view>
+</view>
+<view class='no_sao'>扫不出来？<text catchtap='toPage' data-page="addGood">手动输入</text></view>
+<view class='foot'>扫商品条形码，自助买单快人一步！</view>
+<!-- 登录 -->
+<login id='login' />

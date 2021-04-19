@@ -1,0 +1,54 @@
+<!--pages/orderInfo/orderInfo.wxml-->
+<view class="order_body">
+  <view class='order_title'>
+    <view class='shop_name'>长沙贺龙店</view>
+    <view class='order_status'>已完成</view>
+  </view>
+  <view class='order_line'>订单编号：23233232323232323</view>
+  <view class='order_line'>购买时间：2019-03-24 09:12:15</view>
+  <view class='order_line'>商品件数：
+    <text>10件</text>
+  </view>
+  <view class='order_line'>订单合计：
+    <text>￥23.90</text>
+  </view>
+  <view class='order_line'>支付方式：微信支付</view>
+
+  <view class='order_list'>
+    <block wx:for="{{[1,2,3,4]}}" wx:key>
+      <view class='good_info'>
+        <view class='good_name good_sn'>商品号 62357725365667</view>
+        <view class='good_num'>x1</view>
+      </view>
+      <view class='good_info down_line'>
+        <view class='good_name'>康师傅方便面(老坛酸菜)</view>
+        <view class='good_num'>￥3.30</view>
+      </view>
+    </block>
+  </view>
+
+  <view class='no_pay'>
+    <view class='order_price'>需支付:
+      <text>￥99993.30</text>
+    </view>
+    <view class='btn_body'>
+      <button class='btn_opt'>取消订单</button>
+      <button class='btn_opt pay_btn'>立即支付</button>
+    </view>
+  </view>
+
+  <view class='yes_pay'>
+    <view class='good_info'>
+      <view class='good_name'>订单金额：</view>
+      <view class='good_num'>￥3.30</view>
+    </view>
+    <view class='good_info'>
+      <view class='good_name'>优惠金额：</view>
+      <view class='good_num'>￥0.00</view>
+    </view>
+    <view class='good_info'>
+      <view class='good_name'>实付金额：</view>
+      <view class='good_num'><text style='color:red;'>￥3.30</text></view>
+    </view>
+  </view>
+</view>

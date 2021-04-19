@@ -1,0 +1,16 @@
+{
+  "pages": [
+    "pages/shop/shop",
+    "pages/orderInfo/orderInfo",
+    "pages/cart/cart",
+    "pages/myOrder/myOrder"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#184a8c",
+    "navigationBarTitleText": "扫码购",
+    "navigationBarTextStyle": "white"
+  },
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,17 @@
+/* pages/orderInfo/orderInfo.wxss */
+page{background: #f2f2f2;}
+.order_body{background: #fff;width: 90%;margin: 30rpx 0 0 2%;padding: 20rpx;border-radius:15rpx;font-size: 25rpx;color: #333; }
+.order_title{display: flex;justify-content: space-between;font-size: 30rpx;color: #184a8c;font-weight: bold;}
+.order_line{font-size: 25rpx;color: #333;padding-top: 15rpx;}
+.order_line text{color: red;}
+.good_info{display: flex;justify-content: space-between;padding-top: 10rpx;}
+.good_num{color: #555;}
+.good_sn{color: #184a8c;}
+.order_list{border-top:2rpx #ccc dashed;padding-top: 15rpx;margin-top: 20rpx;border-bottom:2rpx #ccc dashed; padding-bottom: 20rpx;}
+.down_line{border-bottom:2rpx #ccc dotted;padding-bottom: 20rpx;}
+.no_pay{display: flex;font-size: 28rpx;justify-content: space-between;margin: 10rpx 0;align-items: center;}
+.btn_opt{font-size: 25rpx;border-color:#184a8c;color: #184a8c; }
+.order_price text{font-size: 30rpx;color: red;}
+.btn_body{display: flex;width: 57%;justify-content: space-between;}
+.pay_btn{color: #fff;background: #184a8c;border-color:#184a8c; }
+

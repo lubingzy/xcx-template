@@ -1,0 +1,18 @@
+/* pages/shop/shop.wxss */
+.upBody{display: flex;font-size: 30rpx;align-items: center;justify-content: space-around;padding: 45rpx 0;color: #fff;background: #184a8c;}
+.userInfo{display: flex;width: 65%;justify-content: space-around;align-items: center;}
+.headImg{width: 130rpx;height: 130rpx;border-radius:50%; border: 5rpx #fff solid;}
+.vip{font-size: 25rpx;}
+.wihte_right_arrow{width: 28rpx;height: 28rpx;}
+.order{width: 25%;}
+.wihte_top_arrow{width: 25rpx;height: 25rpx;margin-left: 5rpx;}
+.select_shop{background: rgba(255, 255, 255, 0.3);padding:5rpx;width: 80%;font-size: 26rpx;display: flex;align-items: center;justify-content: center;border-radius:15rpx;letter-spacing: 2rpx;}
+.logo{width: 450rpx;height: 120rpx;margin:50rpx 150rpx;}
+.icon_img{width: 550rpx;height: 200rpx;margin-left:100rpx; }
+.sao_btn{border-radius:50%;display: flex;flex-wrap: wrap;justify-content: center;font-size: 28rpx; align-items: center;  background: #184a8c;width: 250rpx;height: 250rpx;color: #fff;margin: 80rpx 260rpx;box-shadow: 0 0 25rpx #555;}
+.sm_img{width: 100rpx;height: 100rpx;}
+.sm_text{margin-top: -90rpx;letter-spacing: 2rpx;}
+.sao_btn_hover{opacity: 0.8;}
+.no_sao{font-size: 28rpx;color: #555;letter-spacing: 2rpx;text-align: center;}
+.no_sao text{color: #184a8c;font-weight: bold;}
+.foot{text-align: center;color: #555;font-size: 25rpx;letter-spacing: 2rpx;margin-top: 20rpx;}

@@ -1,0 +1,43 @@
+/* pages/cart/cart.wxss */
+page{background: #f2f2f2;}
+/* 顶部信息 */
+.shop_info{background: #184a8c;color: #fff;font-size: 30rpx;padding: 20rpx;}
+.shop_name{font-size: 28rpx;display: flex;align-items: center;}
+.localtion_img{width: 30rpx;height: 30rpx;margin-left: 5rpx;}
+.wihte_right_arrow{width: 28rpx;height: 28rpx;}
+.order{width: 25%;}
+.wihte_top_arrow{width: 25rpx;height: 25rpx;margin-left: 5rpx;}
+.line{display: flex;justify-content: space-between;}
+/* 购物袋 */
+.good_bag_body{background: #fff;padding: 15rpx;}
+.good_bag_title{margin-bottom: 15rpx;}
+.good_bag_list{display: flex;justify-content: flex-start;flex-wrap: wrap;}
+.good_bag{width: 220rpx;border: 2rpx #ccc solid; border-radius:8rpx;padding: 10rpx 0; margin-right: 15rpx;}
+.good_bag_title{font-size: 28rpx;color: #333;}
+.good_bag_info text{color: red;}
+.bag_opt_body{display: flex;align-items: center;justify-content: center;}
+.good_bag_item{text-align: center;font-size: 28rpx;color: #888;}
+
+/* 商品列表 */
+.good_item{font-size: 28rpx;color: #184a8c;display: flex;justify-content: space-between;background: #fff;padding: 15rpx 25rpx;margin-top:25rpx; }
+.good_price{color: #555;}
+.good_price text{color: red;}
+.good_item_right{width: 40%;}
+.opt_body{display: flex;align-items: center;float:right;}
+.opt_num{text-align: center; min-width: 50rpx;font-size: 30rpx;}
+.opt_img{width: 65rpx;height: 65rpx;}
+
+/* 底部栏 */
+.foot{position: fixed;width: 100%;height: 100rpx; bottom: 0; display: flex;background: #fff;align-items: center;font-size: 28rpx; }
+.sum_price{margin-left: 30rpx;}
+.sum_price text{color: red;}
+.sao_btn{border-radius:50%;display: flex;flex-wrap: wrap;justify-content: center;font-size: 25rpx; align-items: center;  background: #184a8c;width: 120rpx;height: 120rpx;color: #fff;box-shadow: 0 0 25rpx #555;position: absolute;right: 110rpx;bottom: 190rpx;}
+.sm_img{width: 50rpx;height: 50rpx;}
+.sm_text{letter-spacing: 2rpx;margin-top: -30rpx;}
+.sao_btn_hover{opacity: 0.8;}
+.edit_btn{display: flex;justify-content: center;align-items: center; width: 80rpx;height: 80rpx; background: #74f270;border-radius:50%; position: absolute;right: 200rpx;bottom: 115rpx;}
+.del_btn{display: flex;justify-content: center;align-items: center; width: 80rpx;height: 80rpx; background: #FF9800;border-radius:50%; position: absolute;right: 15rpx;bottom: 195rpx;}
+.edit_wihte{width: 50rpx;height: 50rpx;}
+.pay_btn_img{font-size: 30rpx;letter-spacing: 2rpx; width: 150rpx;height: 150rpx;background: red;color:#eee;display: flex;justify-content: center;align-items: center;border-radius:50%;border: 10rpx #fff solid;position: absolute;right: 30rpx;bottom: 15rpx; }
+.btn_hover{opacity: 0.8;}
+.pay_btn{position: relative;}

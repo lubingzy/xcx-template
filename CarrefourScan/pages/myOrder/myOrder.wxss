@@ -1,0 +1,17 @@
+/* pages/myOrder/myOrder.wxss */
+page{background: #f2f2f2;}
+/* 切换栏 */
+.lable{font-size: 30rpx;color: #555;display: flex;justify-content: space-around;background: #fff;}
+.item{width: 35%;text-align: center;padding: 35rpx 0;letter-spacing: 2rpx;}
+.item_act{color: #184a8c;border-bottom:8rpx #184a8c solid; }
+/* 订单列表 */
+.order_item{background: #fff;width: 88%;margin: 30rpx 0 0 2%;padding:20rpx 30rpx;border-radius:15rpx;font-size: 25rpx;color: #333; }
+.order_title{display: flex;justify-content: space-between;font-size: 30rpx;color: #184a8c;font-weight: bold;}
+.order_time{font-size: 25rpx;color: #888;padding: 15rpx 0;border-bottom:3rpx #f2f2f2 dotted; }
+.good_item{display: flex;justify-content: space-between;padding: 10rpx 0;}
+.good_num{color: #888;}
+.sum_good{display: flex;justify-content: space-between;}
+.sum_num text{color: red;}
+.footTips{margin: 15rpx 0;letter-spacing: 2rpx; color: #888;text-align: center;font-size: 28rpx;}
+
+
