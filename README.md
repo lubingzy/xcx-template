@@ -25,7 +25,7 @@
 
 ## 仿各类应用
 - [仿Boss直聘](https://github.com/lubingzy/xcx-template/tree/main/Boss) - 仅供学习交流
-- [仿家乐福扫码购](https://github.com/lubingzy/xcx-template/tree/main/CarrefourScanoss) - 仅供学习交流
+- [仿家乐福扫码购](https://github.com/lubingzy/xcx-template/tree/main/CarrefourScan) - 仅供学习交流
 
 ## 官方文档
 
